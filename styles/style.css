@@ -16,7 +16,7 @@
   flex-shrink: 0;
   margin-right: 205px;
   padding-top: 3px;
-  padding-right: 1px;
+  padding-right: px;
 }
 
 .header__logo {
@@ -38,15 +38,16 @@
   display: flex;
   box-sizing: border-box;
   flex-direction: row;
-  gap: 12px;
   list-style: none;
   align-items: center;
   width: 388px;
   height: 23px;
 }
 
-.header__menu-point {
-  padding-left: 1px;
+
+.empty-point {
+  margin-left: 32px;
+  list-style: circle;
 }
 
 .header__menu-link {
@@ -56,8 +57,10 @@
   text-decoration: none;
   font-style: normal;
   font-weight: 400;
+  text-decoration: none;
   border-bottom: 1px #000 solid;
 }
+
 
 .header__menu-item_active .header__menu-link {
   text-decoration: none;
@@ -77,9 +80,9 @@
   margin-top: 6px;
 }
 
-.text-underline {
+/* .text-underline {
   text-decoration: underline;
-}
+} */
 
 .cover {
   width: 1440px;

@@ -138,7 +138,7 @@
   top: 50%;
   line-height: 100%; 
   letter-spacing: 30px;
-  margin-left: 506px;
+  padding-left: 506px;
 }
 
 .aligned-text_right {
@@ -164,9 +164,9 @@
   position: absolute;
   z-index: 3;
   color: #FFF;
-  margin: 653px 385px 63px 422px;
+  padding: 653px 0px 0px 422px;
   gap: 78px; 
-
+  
 }
 
 .cover__description-text {
@@ -181,8 +181,8 @@
   line-height: 28px; 
   text-transform: uppercase;
   word-spacing: 17px;
-  padding-top: 13px;
-  padding-right: 0px;
+  padding-top: 15px;
+  padding-right: 1px;
 
 }
 
@@ -204,7 +204,89 @@
 }
 
 .word-spacing-extended {
-   word-spacing: 22px;
+   word-spacing: 21px;
+}
+
+.lots{
+  width: 1340px;
+  height: 579px;
+  flex-shrink: 0;
+  background-color: #fff;
+  margin: 180px 50px 181px 50px;
+}
+
+.lots_heading {
+  display: block;
+  width: 121px;
+  height: 47px;
+  color: #000;
+  font-family: Raleway;
+  font-size: 40px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  text-transform: uppercase;
+  margin: 0 1179px 27px 40px;
+}
+
+.lots__card-list {
+  display: flex;
+  width: 1340px;
+  height: 450px;
+  max-width: 74px 0 55px 0;
+  gap: 25px;
+  justify-content: space-between;
+}
+
+.lots__card-list-item {
+
+}
+
+.card-link {
+
+}
+
+.card {
+  width: 430px;
+  height: 450px;
+}
+
+.card_type_film {
+  background-image: url(../images/card-lot-01.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+
+.card_type_book {
+
+}
+
+.card_type_picture {
+  
+}
+ 
+.card__title {
+
+}
+
+.card__text {
+
+}
+
+.lots__look-more-link {
+  display: block;
+  width: 192px;
+  height: 23px;
+  color: #000;
+  font-family: Raleway;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  margin: 30px 1108px 2px 40px;
+  text-decoration: underline;
+  text-underline-offset: 5px;
 }
 
 

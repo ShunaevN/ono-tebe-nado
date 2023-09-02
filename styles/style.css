@@ -164,8 +164,7 @@
   position: absolute;
   z-index: 3;
   color: #FFF;
-
-  margin: 667px 385px 62px 422px;
+  margin: 653px 385px 63px 422px;
   gap: 78px; 
 
 }
@@ -181,8 +180,10 @@
   font-weight: 400;
   line-height: 28px; 
   text-transform: uppercase;
-  word-spacing: 16px;
- 
+  word-spacing: 17px;
+  padding-top: 13px;
+  padding-right: 0px;
+
 }
 
 .bet-button {
@@ -200,7 +201,10 @@
   width: 257px;
   height: 52px;
   padding: 12px 32px 12px 32px;
+}
 
+.word-spacing-extended {
+   word-spacing: 22px;
 }
 
 

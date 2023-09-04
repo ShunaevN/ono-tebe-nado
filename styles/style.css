@@ -420,3 +420,52 @@
   line-height: 1.15;
   margin: 5px 594px 0 120px;
 }
+
+.footer {
+  height: 97px;
+  flex-shrink: 0;
+  background-color: aqua;
+  width: 100vh;
+  margin: 180px 50px 90px 50px;
+}
+
+.footer__address {
+  text-underline-offset: 5px;
+}
+
+.footer__menu {
+
+}
+
+.footer__menu-list {
+
+}
+
+.footer__menu-list-item {
+
+}
+
+.footer__menu-link {
+
+}
+
+.footer__menu-link_active {
+
+}
+
+.footer__social-list {
+
+}
+
+.footer__social-list-item {
+
+}
+
+.footer__social-link {
+
+}
+
+.footer__social-icon {
+
+}
+

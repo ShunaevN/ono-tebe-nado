@@ -233,12 +233,10 @@
   max-width: 74px 0 55px 0;
   gap: 25px;
   justify-content: space-between;
-  
 }
 
 .lots__card-list-item {
   flex-grow: 1;
-  
 }
 
 .card-link {
@@ -249,7 +247,6 @@
 .card {
   width: 430px;
   height: 450px;
-  
 }
 
 .card_type_film {
@@ -300,7 +297,7 @@
   display: block;
   width: 350px;
   height: 52px;
-  color: #FFF;
+  color: #fff;
   font-family: Raleway, sans-serif;
   font-size: 22px;
   font-style: normal;
@@ -311,7 +308,6 @@
   margin-left: 40px;
   margin-right: 40px;
   padding-top: 51px;
-
 }
 
 .card__text {
@@ -320,16 +316,13 @@
   position: relative;
   height: 96px;
   flex-shrink: 0;
-  color: #FFF;
+  color: #fff;
   font-family: Raleway, sans-serif;
   font-size: 20px;
   font-style: normal;
   font-weight: 400;
   line-height: 120%; /* 24px */
-  
 }
-
-
 
 .lots__look-more-link {
   display: block;
@@ -356,7 +349,6 @@
   display: flex;
   height: 487px;
   margin-left: 95px;
-
 }
 .about__logo {
   display: flex;
@@ -426,7 +418,7 @@
   justify-content: space-between;
   height: 97px;
   flex-shrink: 0;
-  align-items:start;
+  align-items: start;
   margin: 180px 50px 90px 50px;
 }
 
@@ -456,4 +448,3 @@
   width: 47px;
   height: 47px;
 }
-

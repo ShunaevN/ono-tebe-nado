@@ -27,6 +27,10 @@ blockquote {
   padding: 0;
 }
 
+ul, li, ol {
+  list-style-type: none;
+}
+
 a {
   color: inherit;
 }

@@ -1,6 +1,6 @@
 .header {
   box-sizing: border-box;
-  height: 109px; 
+  height: 109px;
   display: flex;
   align-items: center;
   flex-direction: row;
@@ -345,10 +345,10 @@
   min-width: 0;
   height: 487px;
   margin-left: 95px;
-  
 }
+
 .about__logo {
-  display: flex;;
+  display: flex;
   position: relative;
   width: 240px;
   height: 240px;

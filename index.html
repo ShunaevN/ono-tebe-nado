@@ -13,17 +13,13 @@
     <header class="header">
       <nav class="header__menu">
         <ul class="header__links-list">
-          <li class="header__links-list-item header__link_active">
-            <a class="header__link">главная</a>
-          </li>
-          <li class="header__links-list-item_bullit">
-          </li>
           <li class="header__links-list-item">
+            <a class="header__link header__link_active">главная</a>
+          </li>
+          <li class="header__links-list-item header__links-list-item_bullit">
             <a class="header__link" href="#0">посмотреть лоты</a>
           </li>
-          <li class="header__links-list-item_bullit">
-          </li>
-          <li class="header__links-list-item">
+          <li class="header__links-list-item header__links-list-item_bullit">
             <a class="header__link" href="#0">об аукционе</a>
           </li>
         </ul>
@@ -32,21 +28,13 @@
         <img
           class="header__logo-image"
           src="./images/logo-black.svg"
-          alt="Логотип проекта"
+          alt="название проекта оно тебе надо"
         />
       </a>
       <address class="address header__address">
-        <ul>
-          <li class="header__links-list-item">
-            <a class="header__link" href="tel:+99995555555">+9 999 555 5555</a>
-          </li>
-          <li class="header__links-list-item">
-            <a class="header__link" href="mailto:info@sobaka.ge">info@sobaka.ge</a>
-          </li>
-          <li class="header__links-list-item">
-            наб. Принсенграхт 263-265, Амстердам
-          </li>
-        </ul>
+        <a class="header__links-list-item header__link" href="tel:+99995555555">+9 999 555 5555</a>
+        <a class="header__links-list-item header__link" href="mailto:info@sobaka.ge">info@sobaka.ge</a>
+        <p class="header__links-list-item">наб. Принсенграхт 263-265, Амстердам</p>
       </address>
     </header>
     <main class="main">
@@ -55,15 +43,15 @@
           <!-- empty div for dark overlay -->
         </div>
         <h1 class="cover__title">
-          <span class="aligned-text">о<span class="letter-spacing-extended">но</span></span>
-          <span class="aligned-text_center">те<span class="letter-spacing-extended">бе</span></span>
-          <span class="aligned-text_right"><span class="letter-spacing-extended">н</span>ад<span class="no-letter-spacing">о</span></span>
+          <span class="cover__title-text aligned-text">о<span class="letter-spacing-extended">но</span></span>
+          <span class="cover__title-text aligned-text_center">те<span class="letter-spacing-extended">бе</span></span>
+          <span class="cover__title-text aligned-text_right"><span class="letter-spacing-extended">н</span>ад<span class="no-letter-spacing">о</span></span>
         </h1>
         <div class="cover__description">
           <h2 class="cover__description-text">
-            Аукцион вещей, в которые никто <span class='word-spacing-extended'>не верил</span>
+            <p>Аукцион вещей, в которые никто не верил</p>
           </h2>
-          <p class="bet-button">Сделать ставку</p>
+          <button class="bet-button">Сделать ставку</button>
         </div>
       </section>
       <section class="lots">
@@ -159,17 +147,9 @@
     </main>
     <footer class="footer">
       <address class="address footer__address">
-        <ul>
-          <li class="footer__menu-list-item">
-            <a class="footer__menu-link" href="tel:+99995555555">+9 999 555 5555</a>
-          </li>
-          <li class="footer__menu-list-item">
-            <a class="footer__menu-link" href="mailto:info@sobaka.ge">info@sobaka.ge</a>
-          </li>
-          <li class="footer__menu-list-item">
-            наб. Принсенграхт 263-265, Амстердам
-          </li>
-        </ul>
+        <a class="footer__menu-list-item footer__menu-link" href="tel:+99995555555">+9 999 555 5555</a>
+        <a class="footer__menu-list-item footer__menu-link" href="mailto:info@sobaka.ge">info@sobaka.ge</a>
+        <p class="footer__menu-list-item">наб. Принсенграхт 263-265, Амстердам</p>
       </address>
       <nav class="footer__menu">
         <ul class="footer__menu-list">

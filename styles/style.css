@@ -405,7 +405,6 @@
   font-weight: 400;
   line-height: 1.15;
   margin: 102px 594px 25px 120px;
-  
 }
 
 .about__text-end {
@@ -422,50 +421,39 @@
 }
 
 .footer {
+  width: 1340px;
+  display: flex;
+  justify-content: space-between;
   height: 97px;
   flex-shrink: 0;
-  background-color: aqua;
-  width: 100vh;
+  align-items:start;
   margin: 180px 50px 90px 50px;
 }
 
 .footer__address {
+  padding-bottom: 12px;
   text-underline-offset: 5px;
 }
 
 .footer__menu {
-
-}
-
-.footer__menu-list {
-
-}
-
-.footer__menu-list-item {
-
-}
-
-.footer__menu-link {
-
-}
-
-.footer__menu-link_active {
-
+  display: block;
+  text-align: center;
+  font-family: Raleway, sans-serif;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
 }
 
 .footer__social-list {
-
-}
-
-.footer__social-list-item {
-
-}
-
-.footer__social-link {
-
+  width: 240px;
+  height: 48px;
+  display: flex;
+  gap: 49px;
 }
 
 .footer__social-icon {
-
+  width: 47px;
+  height: 47px;
 }
 

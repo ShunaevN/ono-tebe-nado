@@ -5,6 +5,7 @@
   flex-direction: row;
   margin: 92px 49px 96px 51px;
   flex-shrink: 0;
+  justify-content: space-between;
 }
 
 .header__menu {
@@ -12,9 +13,9 @@
   flex-wrap: nowrap;
   width: 388px;
   flex-shrink: 0;
-  margin-right: 206px;
+  /* margin-right: 206px;
   padding-top: 3px;
-  padding-right: 1px;
+  padding-right: 1px; */
 }
 
 .header__logo {
@@ -22,8 +23,8 @@
   width: 148px;
   height: 105px;
   flex-shrink: 0;
-  padding-top: 1px;
-  margin-right: 207px;
+  /* padding-top: 1px;
+  margin-right: 207px; */
 }
 
 .header__logo-image {
@@ -34,14 +35,15 @@
 .header__links-list {
   display: flex;
   flex-direction: row;
-  list-style: none;
   align-items: center;
+  
 }
 
 .header__links-list-item_bullit {
   margin-left: 32px;
-  list-style: circle;
   stroke-width: 1px;
+  list-style-type: circle;
+  
 }
 
 .header__link {
@@ -59,7 +61,7 @@
   line-height: 24.3px;
 }
 
-.header__link_active .header__link {
+.header__link_active  {
   text-decoration: none;
   border-bottom: none;
 }
@@ -79,8 +81,8 @@
 }
 
 .header__address {
-  margin-left: 151px;
-  margin-top: 6px;
+  /* margin-left: 151px;
+  margin-top: 6px; */
 }
 
 .cover {
@@ -171,7 +173,6 @@
 
 .bet-button {
   display: block;
-  height: 52px;
   font-family: Raleway, sans-serif;
   font-size: 22px;
   font-style: normal;
@@ -179,8 +180,10 @@
   line-height: normal;
   text-transform: uppercase;
   align-items: center;
-  border: 1px #fff solid;
+  border: 2px #fff solid;
   padding: 12px 32px 12px 32px;
+  background-color: transparent;
+  color: #fff;
 }
 
 
@@ -207,6 +210,7 @@
   display: flex;
   gap: 25px;
   justify-content: space-between;
+  flex-wrap: wrap;
 }
 
 .lots__card-list-item {
@@ -228,6 +232,7 @@
   background-position: center;
   background-size: cover;
   z-index: 1;
+  width: 430px;
 }
 
 .card_type_film {
@@ -351,7 +356,6 @@
 
 .about__text-start {
   display: block;
-  width: 885px;
   flex-shrink: 0;
   font-family: Raleway, sans-serif;
   font-size: 20px;
@@ -364,7 +368,6 @@
 
 .about__text-end {
   display: inline-block;
-  width: 885px;
   flex-shrink: 0;
   font-family: Raleway, sans-serif;
   font-size: 20px;
@@ -376,7 +379,7 @@
 }
 
 .footer {
-  width: 1340px;
+  /* width: 1340px; */
   display: flex;
   justify-content: space-between;
   flex-shrink: 0;

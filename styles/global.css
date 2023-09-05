@@ -27,9 +27,9 @@ blockquote {
   padding: 0;
 }
 
-ul, li, ol {
+ ul, li, ol {
   list-style-type: none;
-}
+} 
 
 a {
   color: inherit;

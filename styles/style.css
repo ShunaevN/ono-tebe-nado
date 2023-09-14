@@ -250,8 +250,7 @@
   line-height: 120%;
   text-decoration-line: underline;
   text-transform: uppercase;
-  padding-top: 50px;
-  /* padding-left: 40px; */
+  padding: 50px 40px 30px;
 }
 
 .card__text {
@@ -290,6 +289,7 @@
 .about__column {
   display: flex;
   margin-left: 95px;
+  gap: 120px;
 }
 
 .about__logo {
@@ -316,6 +316,9 @@
 .about__text-description {
   display: flex;
   flex-direction: column;
+  margin-top: 103px;
+  gap: 100px;
+
 }
 
 .about__title {
@@ -327,7 +330,6 @@
   font-weight: 700;
   line-height: normal;
   text-transform: uppercase;
-  margin: 100px 594px 0 120px;
 }
 
 .about__text {
@@ -338,11 +340,10 @@
   font-style: normal;
   font-weight: 400;
   line-height: 1.15;
-  margin: 102px 0 25px 120px;
 }
 
 .about__text:last-child {
-  margin: 5px 0 0 120px;
+  margin-top: -70px;
 }
 
 
@@ -351,7 +352,7 @@
   justify-content: space-between;
   flex-shrink: 0;
   align-items: start;
-  margin: 184px 50px 90px 50px;
+  margin: 183px 50px 90px 50px;
 }
 
 .footer__address {

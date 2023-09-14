@@ -318,7 +318,6 @@
   flex-direction: column;
   margin-top: 103px;
   gap: 100px;
-
 }
 
 .about__title {
@@ -356,7 +355,6 @@
 }
 
 .footer__address {
-
   text-underline-offset: 5px;
 }
 
